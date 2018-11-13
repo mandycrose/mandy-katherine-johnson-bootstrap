@@ -12,17 +12,39 @@
 </head>
 
 <body>
-  <div id="wrapper">
-  <header class=jumbotron>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+      <div class="container">
+    <a class="navbar-brand" href="#">Women in Tech</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Short Bio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#m">Long Bio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#m">Quotes</a>
+        </li>
+      </ul>
+    </div><!--navbar-->
+    </nav>
     <div class="container">
+  <header class="jumbotron">
 		<div class="row">
+      <div class= "col-md-8">
     <h1 id="heading">Katherine Johnson</h1>
+    </div>
       <figure>
-        <img src="images/Katherine_Johnson_at_NASA_in_1966.jpg" alt="Katherine Johnson at Nasa in 1966." height="520" width="520" class="rounded mx-auto d-block" alt="Responsive image" />
+        <img src="images/Katherine_Johnson_at_NASA_in_1966.jpg" alt="Katherine Johnson at Nasa in 1966." height="520" width="520" class="img-fluid" alt="katherine image" />
       </figure>
-      </header>
-      <blockquote class="first">"Math. It's just there ... You're either right or you're wrong. That's what I like about it."</blockquote>
 
+      <blockquote class="first">"Math. It's just there ... You're either right or you're wrong. That's what I like about it."</blockquote>
+          </header>
+</div>
     <section class="short-bio">
       <h2>Short Bio:</h2>
       <ul>
@@ -71,4 +93,5 @@
       <blockquote>"I felt most proud of the success of the Apollo mission. They were going to the moon and I computed the path to get there."</blockquote>
     </section>
   </main>
-  <footer>Information source:<a href=https://en.wikipedia.org/wiki/Katherine_Johnson>wikipedia </a> </footer> </div> </body> </html>
+  <footer>Information source:<a href=https://en.wikipedia.org/wiki/Katherine_Johnson>wikipedia </a> </footer> </div><!--/.container-->
+ </body> </html>
