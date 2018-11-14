@@ -6,15 +6,12 @@
   min-height: 600px;
   padding-top: 0px;
 }
-#heading {padding: 100px}
+#heading-quote {padding: 100px;
+color: white;}
 
 .first-picture {
   padding-top: 100px;
   align: center;
-}
- .figcaption{
-  color: #333;
-  font-size: 14px;
 }
  h2 {
   background-color: grey;
