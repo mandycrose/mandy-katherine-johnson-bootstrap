@@ -1,0 +1,21 @@
+.jumbotron {
+  background-image: url("../images/Neil_Armstrong_Pan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0;
+  min-height: 600px;
+  padding-top: 0px;
+}
+#heading {padding: 100px}
+
+.first-picture {
+  padding-top: 100px;
+  align: center;
+}
+img .rounded-circle {
+  border: 2px solid #F5F5F5;
+  display: block;
+  border-radius: 100px;
+  max-width: 100%;
+  margin-bottom: 10px;
+}
