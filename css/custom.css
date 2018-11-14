@@ -12,10 +12,10 @@
   padding-top: 100px;
   align: center;
 }
-img .rounded-circle {
-  border: 2px solid #F5F5F5;
-  display: block;
-  border-radius: 100px;
-  max-width: 100%;
-  margin-bottom: 10px;
+ .figcaption{
+  color: #333;
+  font-size: 14px;
+}
+ h2 {
+  background-color: grey;
 }
