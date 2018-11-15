@@ -1,3 +1,16 @@
+.nav {
+  font-family: 'Old Standard TT', serif;
+}
+#heading {
+  font-family: 'Old Standard TT' , cursive;
+}
+.first-quote {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
+}
+.main {
+  font-family: 'Old Standard TT', serif;
+}
 .jumbotron {
   background-image: url("../images/Neil-Armstrong-2.jpg");
   background-repeat: no-repeat;
