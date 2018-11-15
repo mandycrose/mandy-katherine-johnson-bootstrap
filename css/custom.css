@@ -1,5 +1,9 @@
-.nav {
+nav {
   font-family: 'Old Standard TT', serif;
+}
+.navbar-brand {
+  font-family: 'Caveat', cursive;
+  font-size: 25px;
 }
 #heading {
   font-family: 'Old Standard TT' , cursive;
@@ -29,7 +33,6 @@ color: white;}
     background-color: rgba(255,255,255,.5);
   }
 }
-
 .first-picture {
   padding-top: 100px;
   align: center;
