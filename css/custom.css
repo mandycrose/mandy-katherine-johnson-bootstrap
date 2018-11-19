@@ -24,6 +24,10 @@ nav {
   font-size: 25px;
 }
 
+.carousel {
+  margin-bottom: 50px;
+}
+
 .main {
   font-family: 'Old Standard TT', serif;
 }
